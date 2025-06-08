@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps({
+defineProps({
   imgSrcNew: {
     type: String,
     required: false,
@@ -11,7 +11,7 @@ const props = defineProps({
   <slot>
     <div v-if="imgSrcNew" class="card">
       <img class="card-img" :src="imgSrcNew" alt="picture" />
-      <div class="">{{ imgSrcNew }}</div>
+      <!-- <div class="">{{ imgSrcNew }}</div> -->
     </div>
   </slot>
 </template>

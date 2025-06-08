@@ -4,16 +4,16 @@ import AppCard from './components/AppCard.vue'
 
 const cardsData = ref([
   {
-    imgSrc: '../assets/img/area.jpg',
+    imgSrc: '/area.jpg',
   },
   {
-    imgSrc: '../assets/img/panorama.jpg',
+    imgSrc: '/panorama.jpg',
   },
   {
     imgSrc: '',
   },
   {
-    imgSrc: '../assets/img/road.jpg',
+    imgSrc: '/road.jpg',
   },
 ])
 </script>
@@ -34,10 +34,10 @@ const cardsData = ref([
 
   <div class="cards container">
     <div class="card">
-      <img class="card-img" src="./assets/img/area.jpg" alt="picture" />
+      <img class="card-img" src="/area.jpg" alt="picture" />
     </div>
     <div class="card">
-      <img class="card-img" src="./assets/img/panorama.jpg" alt="picture" />
+      <img class="card-img" src="/panorama.jpg" alt="picture" />
     </div>
     <div class="card">
       <div class="text-wr">
@@ -48,7 +48,7 @@ const cardsData = ref([
       </div>
     </div>
     <div class="card">
-      <img class="card-img" src="./assets/img/road.jpg" alt="picture" />
+      <img class="card-img" src="/road.jpg" alt="picture" />
     </div>
   </div>
 </template>
